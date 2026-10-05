@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="28" viewBox="0 0 280 28" fill="none">
+  <rect width="48" height="28" rx="3" fill="#1A1F71"/>
+  <text x="8" y="18" fill="#fff" font-size="9" font-family="Arial" font-weight="700">VISA</text>
+  <rect x="56" width="52" height="28" rx="3" fill="#003087"/>
+  <text x="64" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">PayPal</text>
+  <rect x="116" width="48" height="28" rx="3" fill="#EB001B"/>
+  <circle cx="134" cy="14" r="7" fill="#F79E1B"/>
+  <rect x="172" width="52" height="28" rx="3" fill="#635BFF"/>
+  <text x="180" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">stripe</text>
+  <rect x="232" width="48" height="28" rx="3" fill="#2E77BC"/>
+  <text x="238" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">AMEX</text>
+</svg>

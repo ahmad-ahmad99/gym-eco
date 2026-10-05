@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Eco App
 
-## Getting Started
+Next.js App Router storefront starter. The first route opens a Multikart-style product details page with dummy data, Material UI, RTL, skeletons, and code-split sections.
 
-First, run the development server:
+## Run
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). Home and `/product/gym-coords-set` render the same dummy product.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Feature notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Layout:** shared header, footer, customize drawer (RTL), sticky add-to-cart near page end, scroll-to-top.
+- **Product page:** title + breadcrumb, gallery slider, quantity/cart actions, description/review/Q&A tabs, related products slider.
+- **Data:** dummy product lives in `features/product/data`. `productService.getBySlug` simulates network delay for skeleton/Suspense.
+- **RTL:** toggle from the right `CUSTOMIZE` drawer or switch language to Arabic in the top bar.
+- **Performance:** `loading.tsx` + Suspense skeletons, dynamic imports for tabs/related slider, `next/image` and `next/font`.
 
-## Learn More
+## Folder map
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/                           # Next.js App Router (pages, layouts, loading)
+components/layout              # header, footer, sticky cart
+components/product             # product sections
+components/shared/ui           # reusable MUI wrappers
+core/theme, providers, hooks
+features/product|cart|layout   # models, dummy data, services
+public/images                  # static assets
+```

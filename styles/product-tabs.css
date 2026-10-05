@@ -1,0 +1,209 @@
+.product-tabs {
+  padding-top: calc(22px + 0.01625 * (100vw - 320px));
+}
+
+.tab-product.product-details-contain {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  background-color: #ffffff;
+}
+
+.tab-product.product-details-contain .nav-tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 15px;
+  gap: 18px;
+  border-bottom: 1px solid #eeeeee;
+  overflow: auto;
+  background-color: #f8f8f8;
+  margin: 0;
+  list-style: none;
+}
+
+.tab-product.product-details-contain .nav-tabs .nav-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tab-product.product-details-contain .nav-tabs .nav-item .nav-link {
+  color: #232323;
+  text-align: center;
+  padding: calc(8px + 0.00125 * (100vw - 320px)) calc(16px + 9 * (100vw - 320px) / 1600);
+  border: 1px solid #eeeeee;
+  font-weight: 500;
+  background-color: #fff;
+  font-size: calc(14px + 0.0025 * (100vw - 320px));
+  text-transform: unset;
+  margin: 0;
+  border-radius: 0;
+  font-family: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.tab-product.product-details-contain .nav-tabs .nav-item .nav-link:hover {
+  color: var(--theme-color);
+}
+
+.tab-product.product-details-contain .nav-tabs .nav-item .nav-link.active {
+  color: var(--theme-color);
+  font-weight: 600;
+  background-color: #ec895112;
+  border-color: #ec895196;
+}
+
+.tab-product .tab-content.nav-material {
+  padding: 15px;
+}
+
+.tab-product .tab-content.nav-material p {
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  font-size: calc(14px + 0.00125 * (100vw - 320px));
+}
+
+.post-question-box {
+  margin-bottom: 32px;
+}
+
+.post-question-box h4 {
+  color: #222222;
+  font-weight: 500;
+  font-size: calc(15px + 3 * (100vw - 320px) / 1600);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+}
+
+.post-question-box h4 a {
+  width: auto;
+  display: inline-block;
+  font-size: calc(14px + 3 * (100vw - 320px) / 1600);
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+  background-color: #f8f8f8;
+  color: #222222;
+  padding: calc(9px + 3 * (100vw - 320px) / 1600) calc(16px + 0.00375 * (100vw - 320px));
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.post-question-box h4 a:hover {
+  color: var(--theme-color);
+  background-color: #ec895112;
+}
+
+.tab-product .no-data-added,
+.tab-product .tab-category {
+  background-color: transparent;
+}
+
+.no-data-added,
+.tab-category {
+  text-align: center;
+  padding: calc(40px + 0.02 * (100vw - 320px)) 0;
+  background-color: #f8f8f8;
+}
+
+.no-data-added h4,
+.tab-category h4 {
+  font-weight: 500;
+  font-size: calc(19px + 0.00375 * (100vw - 320px));
+  color: #232323;
+  letter-spacing: unset;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.no-data-added p {
+  margin: 0;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.product-tabs__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.product-tabs__paragraph {
+  margin: 0;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.product-tabs__stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-tabs__card {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.product-tabs__card-meta {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #777777;
+}
+
+.product-tabs__card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.product-tabs__card-author {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #222222;
+}
+
+.product-tabs__card-date {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #777777;
+}
+
+.product-tabs__empty-title {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #222222;
+}
+
+.product-tabs__qa-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

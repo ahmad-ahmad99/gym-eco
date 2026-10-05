@@ -1,0 +1,63 @@
+.product-related {
+  padding: calc(32px + 0.02 * (100vw - 320px)) 0;
+  background-color: #ffffff;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 420px;
+}
+
+.product-related h2 {
+  text-transform: capitalize;
+  font-size: calc(18px + 0.005 * (100vw - 320px));
+  color: #222222;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  margin: 0 0 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.product-related__slider {
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Keep card width stable before Swiper mounts (prevents full-width LCP flash) */
+.related-products-slider__fallback > *,
+.related-products-slider__slide {
+  flex: 0 0 calc((100% - 16px * 0.4) / 1.4);
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (min-width: 480px) {
+  .related-products-slider__fallback > *,
+  .related-products-slider__slide {
+    flex-basis: calc((100% - 16px * 1.1) / 2.1);
+  }
+}
+
+@media (min-width: 768px) {
+  .related-products-slider__fallback > *,
+  .related-products-slider__slide {
+    flex-basis: calc((100% - 16px * 2) / 3);
+  }
+}
+
+@media (min-width: 1024px) {
+  .related-products-slider__fallback > *,
+  .related-products-slider__slide {
+    flex-basis: calc((100% - 16px * 3) / 4);
+  }
+}
+
+@media (min-width: 1280px) {
+  .related-products-slider__fallback > *,
+  .related-products-slider__slide {
+    flex-basis: calc((100% - 16px * 4) / 5);
+  }
+}
+
+.related-products-slider__slide .basic-product {
+  height: 100%;
+}

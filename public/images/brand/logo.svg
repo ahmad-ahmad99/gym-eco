@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="36" viewBox="0 0 175 36" fill="none">
+  <rect width="36" height="36" rx="7" fill="#ec8951"/>
+  <path d="M9 27V9h3.2l4.8 10.2L21.8 9h3.2v18h-3v-9.4L19.1 27h-3.2l-4.3-9.1V27H9z" fill="#fff"/>
+  <text x="46" y="25" fill="#222222" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="600">multik</text>
+  <circle cx="111.5" cy="10.5" r="2.4" fill="#ec8951"/>
+  <text x="115" y="25" fill="#222222" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="600">art</text>
+</svg>

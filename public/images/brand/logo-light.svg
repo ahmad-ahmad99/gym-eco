@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="36" viewBox="0 0 176 36" fill="none">
+  <rect width="36" height="36" rx="8" fill="#ec8951"/>
+  <path d="M8 26V10h4.4l5.6 10.4L23.6 10H28v16h-3.8V16.1L20.1 24h-4.2l-4.1-7.9V26H8z" fill="#fff"/>
+  <text x="46" y="25" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="600">multikart</text>
+</svg>

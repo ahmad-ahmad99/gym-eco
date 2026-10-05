@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="28" viewBox="0 0 320 28" fill="none">
+  <rect width="72" height="28" rx="3" fill="#005B9A"/>
+  <text x="8" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">McAfee</text>
+  <rect x="80" width="78" height="28" rx="3" fill="#00A94F"/>
+  <text x="88" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">TRUSTE</text>
+  <rect x="166" width="70" height="28" rx="3" fill="#222"/>
+  <text x="176" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">Norton</text>
+  <rect x="244" width="76" height="28" rx="3" fill="#E21836"/>
+  <text x="252" y="18" fill="#fff" font-size="8" font-family="Arial" font-weight="700">verified</text>
+</svg>
